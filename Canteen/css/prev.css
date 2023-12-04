@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', monospace;
+    font-style: normal;
+}
+
+.nav{
+    z-index: 999999999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #004B93;
+    display: flex;
+    align-items:center;
+    padding:5px 10px;
+    color: white;
+}
+.for-logo h1{
+    font-family: 'Cookie';
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.for-links{
+    flex-grow: 1;
+    text-align: center;
+}
+.for-buttons button{
+    border:1px solid white;
+    padding: 5px 20px;
+    border-radius: 6px;
+    color:white;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.nav ul li, .menu-items ul li{
+    display: inline-block; 
+}
+.nav ul li a{
+    color: white;
+    padding: 5px 10px;
+    cursor:pointer;
+}
+
+.header{
+    margin-top: 45px;
+    background-color: #004B93;
+    padding: 30px 10px;
+
+}
+.header-title h1{
+    font-family: 'Cookie';
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing:4px;
+    color: white;
+    margin-bottom: 10px;
+}
+.swiper{
+    height: 230px;
+}
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+swiper-slide .imgwala img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.imgwala{
+    position: relative;
+}
+.priceinfo{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.priceinfo p{
+    color: white;
+    padding: 4px; 
+    background-color: #004c93;
+    border-radius: 6px;
+    border:1px solid white;
+    font-size: 13px;
+}
+.mini_nav{
+    padding: 10px;
+    text-align: center;
+}
+.menu p{
+    font-family: 'Cookie';
+    display: inline;
+    font-size: 50px;
+}
+.menu-items {
+    padding: 10px;
+}
+.menu-items a{
+    padding: 5px 10px;
+    color:black;
+    background-color: #ddd;
+    border-radius: 6px;
+    border: 1px solid transparent
+}
+.menu-items a:hover{
+    border: 1px solid #004B93;
+    transition: 0.5s ease;
+}
+
+.item-container{
+    width: 100%;
+    padding: 10px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 10px;
+}
+.category p{
+    font-family: 'Cookie';
+    font-size: 30px;
+    flex-grow: 1;
+}
+
+.expandable {
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.product-box{
+    height: 250px;
+    width: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+.forpimg{
+    height: 150px;
+    width: 100%;
+}
+.forpimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.forpdescp{
+    flex-grow: 1;
+}
+.forpdescp table{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.add-to-cart button{
+    outline: none;
+    border:none;
+    padding: 5px;
+    width: 100%;
+    background-color: #004B93;
+    color: white;
+}
+.footer{
+    background-color: #004B93;
+    color: white;
+    padding: 30px 10px;
+}
+
+.footer-items{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer h1, .footer h2{
+    font-family: 'Cookie';
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.footer-box{
+    margin: 10px;
+    width: 200px;
+    
+}
+.contact-box li{
+    display: inline-block;
+    padding: 5px;
+}
+.footer p{
+    font-size: 15px;
+}
+.coprrght{
+    padding: 5px 10px;
+    max-width: 320px;
+    margin: auto;
+    border-top: .5px solid white;
+}

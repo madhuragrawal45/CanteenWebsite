@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', monospace;
+    font-style: normal;
+}
+
+.nav{
+    z-index: 999999999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #004B93;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5px 10px;
+    color: white;
+}
+.for-logo h1{
+    font-family: 'Cookie';
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.for-links{
+    /* flex-grow: 1; */
+    text-align: center;
+}
+.for-buttons button{
+    border:1px solid white;
+    padding: 5px 20px;
+    border-radius: 6px;
+    color:white;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.nav ul li, .menu-items ul li{
+    display: inline-block; 
+}
+.nav ul li a{
+    color: white;
+    padding: 5px 10px;
+    cursor:pointer;
+}
+
+.header{
+    background-color: #004B93;
+    padding: 30px 10px;
+
+}
+.header-title h1{
+    font-family: 'Cookie';
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing:4px;
+    color: white;
+    margin-bottom: 10px;
+}
+.swiper{
+    height: 250px;
+}
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+swiper-slide .imgwala img, .dishimg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.imgwala{
+    height: 100%;width: 100%;
+    position: relative;
+}
+.priceinfo{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.priceinfo p{
+    color: white;
+    padding: 4px; 
+    background-color: #004c93;
+    border-radius: 6px;
+    border:1px solid white;
+    font-size: 13px;
+}
+.mini_nav{
+    padding: 10px;
+    text-align: center;
+}
+.menu p{
+    font-family: 'Cookie';
+    display: inline;
+    font-size: 50px;
+}
+.menu-items {
+    padding: 10px;
+}
+.menu-items a{
+    padding: 5px 10px;
+    color:black;
+    background-color: #ddd;
+    border-radius: 6px;
+    border: 1px solid transparent
+}
+.menu-items a:hover{
+    border: 1px solid #004B93;
+    transition: 0.5s ease;
+}
+.footer{
+    background-color: #004B93;
+    color: white;
+    padding: 30px 10px;
+}
+
+.footer-items{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer h1, .footer h2{
+    font-family: 'Cookie';
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.footer-box{
+    margin: 10px;
+    width: 200px;
+    
+}
+.contact-box li{
+    display: inline-block;
+    padding: 5px;
+}
+.footer p{
+    font-size: 15px;
+}
+.coprrght{
+    padding: 5px 10px;
+    max-width: 320px;
+    margin: auto;
+    border-top: .5px solid white;
+}
+
+
+.product-container-wrapper{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+.product-container{
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 6px;
+    min-width: 370px;
+    margin: 10px;
+}
+.pexpandable{
+    border-top: 1px solid #004B93;
+}
+.ptitle {
+    padding: 5px 0px;
+}
+.dishimg{
+    height: 100%;
+    width: 120px;
+    position: relative;
+}
+
+.dishes{
+    display:flex;
+    background-color: #ddd;
+    padding: 15px 5px;
+    border-radius: 6px;
+    border-bottom: 1px solid #004B93;
+    margin: 10px 0px;
+}
+.dishinfo{
+    flex-grow: 1;
+}
+.available, .not-available{
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    right: 0px;
+    background-color:#004B93;
+    margin:0px 5px;
+    border-radius:6px;
+}
+.available input, .not-available input{ 
+    border-radius:6px;
+    border:none;
+    width: 100%;
+    outline: none;
+    padding: 2px;
+    background-color: transparent;
+    color:  white;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.available input:hover, .not-available input:hover{
+    background-color:white;
+    color: #004B93;
+    border-bottom: 1px solid #004B93;
+
+}
+
+.section{
+    padding:5px 10px;
+}
+.alltitle{
+    border-bottom: 1px solid #004B93;
+}
+.alltitle P{
+    font-size:20px;
+}
+.alldishes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.alldishes .dishes{
+    min-width: 375px;
+    margin: 10px;
+}
+.searchbox{
+    position:relative;
+    margin-top: 45px;
+    background-color:#004B93;
+    padding: 5px 10px;
+    text-align:center;
+}
+.searchbox input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px 30px 5px 5px;
+    border-radius:6px;
+}
+.searchbox i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #004B93;
+}
+.searchresults{
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    top: 30px;
+    border-radius: 0 0 6px 6px;
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #83a1c8; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #055db0; 
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #004c93; 
+  }
+
+.cart-wrapper{
+    height: 0%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #dddddd;
+    z-index: 8888;
+}
+/* cart-container */
+.cart-container{
+    margin-top: 100px;
+    overflow: auto;
+    display:flex;
+    align-items: stretch;
+    flex-direction: column;
+    height:100%;
+    max-width: 1000px;
+    margin:auto;
+    padding:80px 10px 40px 10px;
+}
+.summary, .commpreferences, .cart-empty{
+    padding:20px;
+    border-radius: 6px;
+}
+.cart-empty p{
+    font-size:30px;
+    color:red;
+    text-align: center;
+    margin-top:100px;
+}
+.summary h2, .commpreferences h4, .cart-empty h2{
+    border-bottom: 1px solid #004B93;
+    margin:10px 0px;
+    font-family: 'Cookie';
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight:normal;
+}
+.summary{
+    /* flex-grow: 1; */
+    background-color: #ccc;
+    position: relative;
+}
+.commpreferences{
+    margin: 10px 0px;
+    background-color: #ccc;
+}
+.summary table{
+    width: 100%;
+}
+
+.summary table td, .summary table th{
+    padding:10px 0px;
+    text-align:left;
+    border-bottom: 1px solid #004B93;
+}
+
+.checkout button, .plus-minus button{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding:8px;
+    background-color:#004B93;
+    color: #fff;
+    border-radius:6px;
+    cursor: pointer;
+}
+
+.plus-minus{
+    display: flex;
+    align-items: center;
+}
+.plus-minus p{
+    width: 100%;
+    color: #004B93;
+    text-align: center;
+}
+.commpreferences form label{
+    display:block;
+    padding: 10px;
+}
+.commpreferences form input, .commpreferences form textarea ,.showalldishes button{
+    border: none;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #004B93;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+.showalldishes button{
+    color: #004B93;
+    border: 1px solid #004B93;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.showalldishes button:hover{
+    background-color: #004B93;
+    color: #fff;
+}
+.commpreferences form input[disabled]{
+    cursor: not-allowed;
+   background-color: #eee;
+}
+.cart-buttons{
+    position:fixed;
+    z-index: 99999;
+    right: 10px;
+    bottom: 10px;
+}
+.cart-buttons button{
+    padding:15px;
+    position: relative;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #004B93;
+    color: #fff
+}
+
+/* animations */

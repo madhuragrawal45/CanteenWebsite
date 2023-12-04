@@ -1,0 +1,51 @@
+.forms-container{
+    margin:100px 0px;
+}
+
+.forms-container form {
+    max-width: 600px;
+    background-color:#ddd;
+    margin:10px auto;
+    border-radius: 6px;
+    padding:5px 10px 30px 10px;
+}
+
+.forms-container form h2{
+    text-align:center;
+    font-family: 'Cookie';
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding:2px 0px;
+    border-bottom: 1.5px solid #004B93;
+    margin-bottom: 20px;
+}
+.divider{
+    max-width: 600px;
+    margin: auto  ;
+    position: relative;
+    padding: 10px;
+}
+.divider p{
+    text-align: center;
+    font-family: 'Cookie';
+    font-size: 20px;
+
+}
+
+.forms-container form label {
+    display: block;
+    margin-bottom:20px;
+}
+
+.forms-container form input, .forms-container textarea { 
+    border-radius:6px;
+    border:none;
+    width: 100%;
+    outline: none;
+    padding:8px;
+    cursor: pointer;
+    transition: .5s ease;
+    margin:2px 0px;
+    border-bottom: 1px solid #004B93;
+}
